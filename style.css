@@ -1,0 +1,1099 @@
+/* Common Style Added */
+* {
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* shared styles Add*/
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.prymari-btn{
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+
+}
+.prymari-btn a{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Navber section style */
+.nav-title h2{
+    color: #131318;
+    font-size: 44px;
+    font-weight: 800;
+}
+.nav-title-spn{
+    color: #FF5400;
+}
+.nav-title{
+    display: flex;
+    gap: 7px;
+}
+nav{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-options{
+    display: flex;
+    gap: 48px;
+}
+.nav-options li{
+    list-style: none;
+
+}
+.nav-options li a{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.dropdown{
+    display: none;
+}
+.fst-li a{
+    color: #FF5400;
+    font-weight: 700px;
+}
+
+/* banner section style */
+
+.banner-text h1{
+    color: #FFF;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.banner-text p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.banner-txt-area{
+    padding-top: 170px;
+    text-align: center;
+    
+}
+.banner-text{
+    width: 730px;
+    margin: 0 auto;
+
+}
+.banner-input{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+#input-field{
+    width: 174px;
+    height: 52px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 18px;
+    font-weight: 400;
+}
+#banner-area{
+    margin-top: 70px;
+    height: 620px;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/webbanner.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+}
+
+/* popular tours section style */
+
+.popular-text-area h1{
+    color: #131318;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.popular-text-area p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+}
+.popular-text-area > ul >  li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+}
+.popular-text-area > ul{
+    padding: 25px;
+    margin: 20px;
+}
+
+.prymary-btn{
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-top: 40px;
+}
+.prymary-btn a{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.popular-text-area{
+    width: 55%;
+}
+.popular{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Additional Section Style */
+.card img{
+    width: 300px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.card img:hover{
+    transform: scale(1.05);
+}
+.card h2{
+    color: #131318;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.card p{
+    color: rgba(0, 0, 0, .5);
+    font-size: 18px;
+}
+.rating{
+    background-color: #f2fb00;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.card{
+    padding: 10px;
+    width: 320px;
+    height: 350px;
+    border-radius: 5px;
+    background: #B2BEB5;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.popular-plase{
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.popular-pls{
+    color: #FF5400;
+}
+.plase{
+    margin-top: 100px;
+}
+.top-reviw{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* Choose Your Destination Section Style */
+
+ #iteam{
+    margin-top: 80px;
+}
+.iteam-grid h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.iteam-grid p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.iteam-grid{
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+#immages{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#immages h4{
+    position: absolute;
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.image-area{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px;
+
+}
+.image-area img{
+    width: 100%;
+    height: auto;
+    
+}
+.maldiv{
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+}
+
+.indonesia{
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+}
+.srilanka{
+    grid-column: 1/span 4;
+    grid-row: 2/span 1;
+}
+.amerika{
+    grid-column: 5/span 5;
+    grid-row: 2/span 1;
+}
+.kasmir{
+    grid-column: 10/span 3;
+    grid-row: 2/span 1;
+}
+.bd{
+    grid-column: 1/span 5;
+    grid-row: 3/span 1;
+    
+}
+.bandarban{
+    grid-column: 6/span 7;
+}
+
+        /* Why Choose Us Section Style */
+    
+        .choose-us-text h1{
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+        .choose-us-text p{
+            color: rgba(19, 19, 24, 0.70);
+            font-size: 16px;
+            font-weight: 400;
+        
+        }
+        .choose-us-text{
+            max-width: 650px;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 80px;
+        }
+        
+        #iconcard{
+            max-width: 700px;
+            height: 280px;
+            padding: 20px;
+            
+        }
+        #iconcard h3{
+            color: #131318;
+            font-size: 28px;
+            font-weight: 800;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+        .icon-grid{
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 30px;
+        }
+        .iconcrad1{
+            width: 100%;
+            height: 100%;
+            grid-column: 1/span 6;
+            grid-row: 1/span 1;
+            border-radius: 16px;
+            border: 1px solid rgba(251, 181, 99, 0.20);
+            background: rgba(251, 181, 99, 0.05);
+        }
+        .iconcrad2{
+            width: 100%;
+            height: 100%;
+            grid-column: 7/span 6;
+            grid-row: 1/span 1;
+            border-radius: 16px;
+            border: 1px solid rgba(41, 206, 246, 0.20);
+            background: rgba(41, 206, 246, 0.05);
+        }
+        .iconcrad3{
+            width: 100%;
+            height: 100%;
+            grid-column: 4/span 6;
+            grid-row: 2/span 1;
+            border-radius: 16px;
+            border: 1px solid rgba(233, 68, 68, 0.20);
+            background: rgba(233, 68, 68, 0.05);
+        }
+
+        /* Deals and Discount Section Style */
+
+        .p-text{
+            display: flex;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .p-text p{
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .p-text > p > i{
+            color: #FF5400;
+            font-size: 20px;
+            margin-right: 8px;
+        }
+        #all-text h2{
+            color: #131318;
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+        #all-text p{
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        #all-text h4{
+            color: #FF5400;
+            font-size: 22px;
+            font-weight: 800;
+            margin-bottom: 18px;
+        }
+        .discount-text1{
+            padding: 40px;
+            max-width: 600px;
+            height: 400px;
+            border-radius: 16px;
+            border: 2px solid #FFF;
+            background: rgba(255, 255, 255, 0.80);
+            backdrop-filter: blur(2.5px);
+            position: relative;
+            top: 115px;
+            left: 715px;
+        }
+
+        .discount-text2{
+            padding: 40px;
+            max-width: 600px;
+            height: 400px;
+            border-radius: 16px;
+            border: 2px solid #FFF;
+            background: rgba(255, 255, 255, 0.80);
+            backdrop-filter: blur(2.5px);
+            position: relative;
+            top: 115px;
+            left: 130px;
+        
+        }
+        .discount-bg1{
+            background-image: url(../images/dealleft.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 630px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .discount-bg2{
+            background-image: url(../images/dealright.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 630px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .deals-text{
+            margin-top: 70px;
+        }
+        .deals-text h1{
+            color: #131318;
+            text-align: center;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 25px;
+        }
+        .deals-text p{
+            color: rgba(19, 19, 24, 0.70);
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+        .bttn{
+            display: flex;
+            justify-content: center;
+        }
+
+    /* perfact place section style */
+      .perfact-pace{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+    .perfact-text h1{
+        color: #131318;
+        font-size: 44px;
+        font-weight: 800;
+        margin-bottom: 25px;
+    }
+    .perfact-text p{
+        color: #5A5A5D;
+        font-size: 18px;
+        font-weight: 400;
+    
+    }
+    .perfact-text > ul > li{
+        color: #131318;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .perfact-text > ul{
+        padding: 40px;
+    }
+    .perfact-text{
+        width: 50%;
+    }
+    .video{
+        width: 610px;
+        border-radius: 16px;
+        background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    }
+    .main-video{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .mountain{
+        position: absolute;
+        margin-top: 10px;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+        
+    }
+    /* News Latter Section Style */
+
+      .form > input, button{
+        display: block;
+    } 
+    .form h3{
+        color: #131318;
+        font-size: 35px;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+    .form p{
+        color: #5A5A5D;
+        font-size: 20px;
+        font-weight: 400;
+        border-bottom: 2px solid rgba(19, 19, 24, 0.10);
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+    }
+    .form > input{
+        width: 450px;
+        height: 52px;
+        border: none;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        color: rgba(19, 19, 24, 0.30);
+        font-size: 18px;
+        padding: 5px 0px 5px 15px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    .form-btn{
+        width: 450px;
+        height: 52px;
+        border: none;
+        border-radius: 8px;
+        background: #FF5400;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 20px;
+    }
+    .form-btn a{
+        color: #FFF;
+    }
+    .form{
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+        width: 40%;
+        height: 420px;
+        padding: 30px 50px 30px 50px;
+    }
+    .travel-discount{
+        width: 324px;
+        height: 120px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+        padding: 20px;
+        position: absolute;
+        bottom: 45px;
+        left: 340px;
+    }
+    .travel-discount p{
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .travel-discount h2{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .travel-photo{
+        position: relative;
+    }
+    .newsletter{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+      /* Footer Section Style */
+
+      .containerr{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .footer-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+    .footer-title h2{
+        color: #131318;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .footer-sp{
+        color: #FF5400;
+    }
+    .footer-text p{
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+    .fa-icon{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-bottom: 30px;
+    }
+    .fa-icon > p > i{
+        font-size: 25px;
+    }
+    .footer-text{
+        border-bottom: 2px solid rgba(2, 2, 92, 0.05);
+        
+    }
+    .footer-copy{
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 40px;
+    }
+    footer{
+        background: rgba(19, 19, 24, 0.05);
+        padding: 100px 0px 100px 0px;
+        margin-top: 100px;
+    }
+
+
+
+/* Responsive Style Added   */
+
+/* For Tablet Size Devices Responsive */
+        /* Navber Responsive */
+
+           @media screen and (min-width: 600px) and (max-width: 982px){
+
+            *{
+                box-sizing: border-box;
+            }
+
+            #nav-list{
+                display: none;
+            }  
+            .dropdown{
+                display: block;
+            }
+            .nav-title h2{
+                font-size: 35px;
+            }
+            .nav-title img{
+                width: 50px;
+            }
+            nav{
+                margin-top: 35px;
+                padding: 0px 20px 0px 15px;
+            }
+     
+    /* Banner Section Responsive */
+            .banner-text h1{
+                font-size: 40px;
+                margin-bottom: 15px;
+            }
+            .banner-text p{
+                font-size: 18px;
+            }
+            .banner-txt-area{
+                padding-top: 50px;
+            }
+            .banner-text{
+                width: 100%;
+                padding: 5px;
+            }
+            .banner-input{
+                flex-direction: column;
+            }
+            #input-field{
+                width: 265px;
+                font-size: 16px;
+            }
+            #banner-area{
+                margin-top: 40px;
+                margin-left: 10px;
+                margin-right: 10px;
+                height: 600px;
+                background-position: bottom;
+            }
+            .prymari-btn{
+                width: 265px;
+            }
+
+    /* popular tours section Responsive */
+            .popular{
+                flex-direction: column;
+                gap: 40px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .popular-text-area{
+                width: 100%;
+                
+            }
+            .popular-img img{
+                width: 100%;
+                
+            }
+            .popular-text-area h1{
+                font-size: 35px;
+            }
+            .popular-text-area p{
+                font-size: 16px;
+            }
+
+    /* Additional Section Responsive */
+        .top-reviw{
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+        }
+
+    /* Why Choose Us Section Responsive */
+
+                .choose-us-text h1{
+                    font-size: 28px;
+                }
+                .choose-us-text{
+                    width: 100%;
+                    padding: 0px 10px 0px 10px;
+                    margin-bottom: 25px;
+                }
+                .iconcard{
+                    margin: 0px 10px 0px 10px;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+                }
+                .iconcrad1{
+                    grid-column: 1/span 1;
+                    grid-row: 1/span 1;
+            
+                }
+                .iconcrad2{
+                    grid-column: 1/span 1;
+                    grid-row: 2/span 1;
+            
+                }
+                .iconcrad3{
+                    grid-column: 1/span 1;
+                    grid-row: 3/span 1;
+                }
+                #iconcard h3{
+                    font-size: 24px;
+                }
+                #iconcard{
+                    height: 330px;
+                }
+
+            
+    /* deals ans discount section Responsive */
+
+                .p-text{
+                    margin-bottom: 20px;
+                    flex-wrap: wrap;
+                }
+                #all-text h2{
+                    font-size: 22px;
+                    margin-bottom: 15px;
+                }
+                #all-text p{
+                    font-size: 15px;
+                    margin-bottom: 10px;
+                }
+                #all-text h4{
+                    font-size: 17px;
+                    margin-bottom: 18px;
+                }
+                #deals-btn{
+                    width: 130px;
+                    height: 45px;
+                }
+                .discount-text1, .discount-text2{
+                    width: 95%;
+                    position: relative;
+                    top: 180px;
+                    left: 70px;      
+                }
+                #deals-id{
+                    margin: 0px 10px 0px 10px;
+                }
+                .discount-bg1{
+                    background-position: bottom;
+                }
+                .discount-bg2{
+                    background-position: bottom;
+                }
+             }
+
+
+    /* For Small Devices like of Mobile Phone */
+            /* Navber Responsive */
+
+        @media screen and (max-width: 600px){
+            #nav-list{
+                display: none;
+            }  
+            .dropdown{
+                display: block;
+            }
+            .nav-title h2{
+                font-size: 28px;
+            }
+            .nav-title img{
+                width: 43px;
+            }
+            nav{
+                margin-top: 30px;
+                padding: 0px 15px 0px 10px;
+            }
+
+
+    /* Banner Section Responsive */
+            .banner-text h1{
+                font-size: 30px;
+                margin-bottom: 15px;
+            }
+            .banner-text p{
+                font-size: 15px;
+            }
+            .banner-txt-area{
+                padding-top: 45px;
+            }
+            .banner-text{
+                width: 100%;
+                padding: 5px;
+            }
+            .banner-input{
+                flex-direction: column;
+            }
+            #input-field{
+                width: 265px;
+                font-size: 16px;
+            }
+            #banner-area{
+                margin-top: 40px;
+                margin-left: 10px;
+                margin-right: 10px;
+                height: 600px;
+                background-position: bottom;
+            }
+            .prymari-btn{
+                width: 265px;
+            }
+
+    /* popular tours section Responsive */
+            .popular{
+                flex-direction: column;
+                gap: 40px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .popular-text-area{
+                width: 100%;
+                
+            }
+            .popular-img img{
+                width: 100%;
+                
+            }
+            .popular-text-area h1{
+                font-size: 30px;
+            }
+            .popular-text-area p{
+                font-size: 15px;
+            }
+
+    /* Additional Section Responsive */
+
+        .top-reviw{
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+        }
+        .image-area{
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(7, 1fr);
+    
+        }
+        .image-area img{
+            width: 100%;
+            height: 200px;
+            
+        }
+        .maldiv{
+            grid-column: 1/span 1;
+            grid-row: 1/span 1;
+        }
+        
+        .indonesia{
+            grid-column: 1/span 1;
+            grid-row: 2/span 1;
+        }
+        .srilanka{
+            grid-column: 1/span 1;
+            grid-row: 3/span 1;
+        }
+        .amerika{
+            grid-column: 1/span 1;
+            grid-row: 4/span 1;
+        }
+        .kasmir{
+            grid-column: 1/span 1;
+            grid-row: 5/span 1;
+        }
+        .bd{
+            grid-column: 1/span 1;
+            grid-row: 6/span 1;
+            
+        }
+        .bandarban{
+            grid-column: 1/span 1;
+            grid-row: 7/span 1;
+        }
+        #immage h4{
+            font-size: 22px;
+        }
+        .text-top-grid h1{
+            font-size: 30px;
+        }
+        .text-top-grid p{
+            font-size: 15px;
+        }
+        .text-top-grid{
+            margin: 0px 10px 0px 10px;
+        }
+
+    /* Why Choose Us Section Responsive */
+
+            .choose-us-text h1{
+                font-size: 28px;
+            }
+            .choose-us-text{
+                width: 100%;
+                padding: 0px 10px 0px 10px;
+                margin-bottom: 25px;
+            }
+            .icon-grid{
+                margin: 0px 10px 0px 10px;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+            }
+            .iconcrad1{
+                grid-column: 1/span 1;
+                grid-row: 1/span 1;
+        
+            }
+            .iconcrad2{
+                grid-column: 1/span 1;
+                grid-row: 2/span 1;
+        
+            }
+            .iconcrad3{
+                grid-column: 1/span 1;
+                grid-row: 3/span 1;
+            }
+            #iconcard h3{
+                font-size: 24px;
+            }
+            #iconcard{
+                height: 330px;
+            }
+        
+     /* deals ans discount section Responsive */
+                .deals-text h1{
+                    font-size: 25px;
+                }
+                .p-text{
+                    margin-bottom: 20px;
+                    flex-wrap: wrap;
+                }
+                #all-text h2{
+                    font-size: 22px;
+                    margin-bottom: 15px;
+                }
+                #all-text p{
+                    font-size: 15px;
+                    margin-bottom: 10px;
+                }
+                #all-text h4{
+                    font-size: 17px;
+                    margin-bottom: 18px;
+                }
+                #deals-btn{
+                    width: 130px;
+                    height: 45px;
+                }
+                .discount-text1, .discount-text2{
+                    width: 95%;
+                    height: 420px;
+                    position: relative;
+                    top: 180px;
+                    left: 10px;               
+                }
+                #deals-id{
+                    margin: 0px 10px 0px 10px;
+                }
+                .discount-bg1{
+                    background-position: bottom;
+                }
+                .discount-bg2{
+                    background-position: bottom;
+                }
+
+        /* perfact place section Responsive */
+
+                .perfact-pace{
+                    flex-direction: column;
+                    margin: 80px 10px 0px 10px;
+                    gap:20px;
+                }
+                .main-video{
+                    width: 100%;
+                    height: auto;
+                }
+                .perfact-text h1{
+                    color: #131318;
+                    font-size: 24px;
+                    font-weight: 800;
+                }
+                .perfact-text{
+                    width: 100%;
+                }
+
+         /* News Latter Section Responsive */
+
+         .newsletter{
+            margin: 80px 10px 0px 10px;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .form{
+            width: 100%;
+            padding: 20px;
+        }
+        .form > input{
+            width: 100%;
+            font-size: 16px;
+        }
+        .form-btn{
+            width: 100%;
+            font-size: 17px;
+            font-weight: 400;
+    
+        }
+        .travel-photo img{
+            width: 100%;
+        }
+        .travel-discount{
+            width: 215px;
+            height: 80px;
+            bottom: 35px;
+            left: 130px;
+        }
+        .travel-discount p{
+            font-size: 16px;
+        }
+        .travel-discount h2{
+            font-size: 22px;
+        }
+    }
+
+        
